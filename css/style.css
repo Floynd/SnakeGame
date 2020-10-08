@@ -1,0 +1,25 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+.wrapper {
+  width: 42%;
+  height: 90%;
+  margin-left: 29%;
+  margin-right: 29%;
+  padding-top: 3.5%;
+}
+
+.MyCanvas {
+  position: absolute;
+  z-index: 100;
+}
+canvas {
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
